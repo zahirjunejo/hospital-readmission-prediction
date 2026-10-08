@@ -10,4 +10,5 @@ _Can patient and hospital encounter data be used to predict whether a diabetic p
 
 - About 101766 patients
 - 50 columns
-- Numerical variables:
+- Numerical variables: time in hospital, num lab procedures, num procedures, num_medications, number_outpatient, number_emergency, number_inpatient, number_diagnosis,
+- Categorical variable: race, gender, age, weight, admission type id, medical specialty, readmitted
