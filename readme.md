@@ -17,7 +17,15 @@ _Can patient and hospital encounter data be used to predict whether a diabetic p
 
 ### Data Dictionary
 
-| Feature      |    Meaning     |          Type | Missing Values |
-| :----------- | :------------: | ------------: | -------------: |
-| Left-aligned | Center-aligned | Right-aligned |     dsdfsdfsdf |
-| Row 2, Col 1 |  Row 2, Col 2  |  Row 2, Col 3 |     sfdsfsdfsf |
+| Feature            |                              Meaning                              |        Type | Missing Values |
+| :----------------- | :---------------------------------------------------------------: | ----------: | -------------: |
+| time_in_hospital   |          Number of days between admission and discharge           | categorical |             no |
+| num_lab_procedures |        Number of lab tests performed during the encounter         |         int |             no |
+| num_procedures     | Number procedures except lab tests performed during the encounter |         int |             no |
+| num_medications    |  Number of distinct generic names administered during encounter   |         int |             no |
+| number_outpatient  |    Number of outpatient visits in the year preceding encounter    |         int |             no |
+| number_emergency   |    Number of emergency visits in the year preceding encounter     |         int |             no |
+| number_inpatient   |    Number of inpatient visits in the year preceding encounter     |         int |             no |
+| number_diagnosis   |             Number of diagnosis entered to the system             |         int |             no |
+
+**Todo diag_1, diag_2, diag_3 and what the hell is ICD9**
