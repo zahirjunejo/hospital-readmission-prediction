@@ -13,7 +13,7 @@ _Can patient and hospital encounter data be used to predict whether a diabetic p
 - Numerical variables: time in hospital, num lab procedures, num procedures, num_medications, number_outpatient, number_emergency, number_inpatient, number_diagnosis,
 - Categorical variable: race, gender, age, weight, admission type id, medical specialty, diag_1, diag_2, diag_3, change, insulin, diabetesMed, readmitted
 - Missing values: max_glu_serum and A1Cresult columns have some missing values. Weight may also be null value.
-- Readmitted between a NO and YES, it is almots 50/50 so not much imbalance there.
+- Readmitted between a NO and YES, it is almost 50/50 so not much imbalance there.
 
 ### Data Dictionary
 
@@ -30,3 +30,4 @@ _Can patient and hospital encounter data be used to predict whether a diabetic p
 | diag_1             |     The primary diagnosis (coded as first three digits of ICD9); 848 distinct values      | categorical |            yes |
 | diag_2             |      Secondary diagnosis (coded as first three digits of ICD9); 923 distinct values       | categorical |            yes |
 | diag_3             | Additional Secondary diagnosis (coded as first three digits of ICD9); 923 distinct values | categorical |            yes |
+| medical_specialty  |                           Speciality of the admitting physician                           | categorical |            yes |
