@@ -17,17 +17,20 @@ _Can patient and hospital encounter data be used to predict whether a diabetic p
 
 ### Data Dictionary
 
-| Feature            |                                          Meaning                                          |        Type | Missing Values |
-| :----------------- | :---------------------------------------------------------------------------------------: | ----------: | -------------: |
-| time_in_hospital   |                      Number of days between admission and discharge                       | categorical |             no |
-| num_lab_procedures |                    Number of lab tests performed during the encounter                     |         int |             no |
-| num_procedures     |             Number procedures except lab tests performed during the encounter             |         int |             no |
-| num_medications    |              Number of distinct generic names administered during encounter               |         int |             no |
-| number_outpatient  |                Number of outpatient visits in the year preceding encounter                |         int |             no |
-| number_emergency   |                Number of emergency visits in the year preceding encounter                 |         int |             no |
-| number_inpatient   |                Number of inpatient visits in the year preceding encounter                 |         int |             no |
-| number_diagnosis   |                         Number of diagnosis entered to the system                         |         int |             no |
-| diag_1             |     The primary diagnosis (coded as first three digits of ICD9); 848 distinct values      | categorical |            yes |
-| diag_2             |      Secondary diagnosis (coded as first three digits of ICD9); 923 distinct values       | categorical |            yes |
-| diag_3             | Additional Secondary diagnosis (coded as first three digits of ICD9); 923 distinct values | categorical |            yes |
-| medical_specialty  |                           Speciality of the admitting physician                           | categorical |            yes |
+| Feature                |                                          Meaning                                          |        Type | Missing Values |
+| :--------------------- | :---------------------------------------------------------------------------------------: | ----------: | -------------: |
+| time_in_hospital       |                      Number of days between admission and discharge                       | categorical |             no |
+| num_lab_procedures     |                    Number of lab tests performed during the encounter                     |         int |             no |
+| num_procedures         |             Number procedures except lab tests performed during the encounter             |         int |             no |
+| num_medications        |              Number of distinct generic names administered during encounter               |         int |             no |
+| number_outpatient      |                Number of outpatient visits in the year preceding encounter                |         int |             no |
+| number_emergency       |                Number of emergency visits in the year preceding encounter                 |         int |             no |
+| number_inpatient       |                Number of inpatient visits in the year preceding encounter                 |         int |             no |
+| number_diagnosis       |                         Number of diagnosis entered to the system                         |         int |             no |
+| diag_1                 |     The primary diagnosis (coded as first three digits of ICD9); 848 distinct values      | categorical |            yes |
+| diag_2                 |      Secondary diagnosis (coded as first three digits of ICD9); 923 distinct values       | categorical |            yes |
+| diag_3                 | Additional Secondary diagnosis (coded as first three digits of ICD9); 923 distinct values | categorical |            yes |
+| medical_specialty      |                           Speciality of the admitting physician                           | categorical |            yes |
+| insulin and other meds |                    Whether the drug was prescribed or change in dosage                    | categorical |             no |
+| diabetesMed            |                                           todo                                            | categorical |             no |
+| change                 |                                           todo                                            | categorical |             no |
