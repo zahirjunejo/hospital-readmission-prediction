@@ -34,3 +34,9 @@ _Can patient and hospital encounter data be used to predict whether a diabetic p
 | metformin to metformin-pioglitazone |                    Whether the drug was prescribed or change in dosage                    | categorical |             no |
 | change                              |                 Whether there was a change in the diabetic meds. Ch or No                 | categorical |             no |
 | diabetesMed                         |                 Indicates whether a diabetesMed was prescribed. Yes or No                 | categorical |             no |
+
+### Questions
+
+#### Q. What is the difference between the primary and secondary diagnosis and additional secondary diagnosis?
+
+#### Q. What is the ICD9 and can it have decimal values?
