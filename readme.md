@@ -31,12 +31,14 @@ _Can patient and hospital encounter data be used to predict whether a diabetic p
 | diag_2                              |      Secondary diagnosis (coded as first three digits of ICD9); 923 distinct values       | categorical |            yes |
 | diag_3                              | Additional Secondary diagnosis (coded as first three digits of ICD9); 923 distinct values | categorical |            yes |
 | medical_specialty                   |                           Speciality of the admitting physician                           | categorical |            yes |
-| metformin to metformin-pioglitazone |                    Whether the drug was prescribed or change in dosage                    | categorical |             no |
+| metformin to metformin-pioglitazone |            Whether the drug was prescribed or change in dosage. Up, No, Steady            | categorical |             no |
 | change                              |                 Whether there was a change in the diabetic meds. Ch or No                 | categorical |             no |
 | diabetesMed                         |                 Indicates whether a diabetesMed was prescribed. Yes or No                 | categorical |             no |
 
 ### Questions
 
 #### Q. What is the difference between the primary and secondary diagnosis and additional secondary diagnosis?
+
+A: <b>Primary diagnosis</b> is the main reason that the patient came to the hospital in the first place. Rarely is this diagnosis a diabetes usually an event like a heart attack or pneumonia or injury. <b> Secondary diagnosis </b> is a coexisting condition that present at the time when of admission or developed during hospital stay that impacts the patient care itself as well as what clinical decisions to make on the patient, monitoring and length of stay. <b> Additional secondary diagnosis </b> is any further extra complications or conditions alongside that need to be taken into account e.g. Hypertension, Hyperlipidemia.
 
 #### Q. What is the ICD9 and can it have decimal values?
